@@ -6,12 +6,16 @@ from support import compute_loss
 
 
 class IBSG(IBase):
+    """
+    Interface class that builds on top of the BSG model. Specifically, it wraps the model's methods to easy user access.
+
+    """
     def __init__(self, data_iterator, vocab, half_window_size=5, nr_neg_samples=5, batch_size=5,
                  subsampling_threshold=None, **kwargs):
         # init the parent object
         IBase.__init__(self, vocab=vocab, model_class=BSG, **kwargs)
 
-        # general stuff
+        # general attributes
         self.batch_size = batch_size
         self.half_window_size = half_window_size
         self.nr_neg_samples = nr_neg_samples
