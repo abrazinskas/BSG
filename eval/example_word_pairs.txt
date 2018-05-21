@@ -1,0 +1,6 @@
+pet cat
+knight human
+coffee drink
+dog animal
+coffee espresso
+cow animal

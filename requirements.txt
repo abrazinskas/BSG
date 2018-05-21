@@ -1,0 +1,5 @@
+Theano==0.9.0
+numpy==1.14.2
+nltk==3.2.2,
+scipy==0.18.1,
+-e git+https://github.com/Lasagne/Lasagne.git#egg=Lasagne-0.2.dev1
