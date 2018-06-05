@@ -1,4 +1,4 @@
-from tools.word_processor import WordProcessor
+from libraries.tools.word_processor import WordProcessor
 from nltk import word_tokenize as default_tokenizer
 try:
     import re2 as re

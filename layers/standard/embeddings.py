@@ -1,5 +1,5 @@
 from layers.layer import Layer
-from theano_support.extra import expand_dims
+from libraries.theano_support.extra import expand_dims
 
 
 class Embeddings(Layer):

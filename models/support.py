@@ -2,7 +2,7 @@
 import pickle
 import numpy as np
 from theano import tensor as T
-from utils.paths_and_files import create_folders_if_not_exist
+from libraries.utils.paths_and_files import create_folders_if_not_exist
 from pickle import UnpicklingError
 from theano.tensor.shared_randomstreams import RandomStreams
 from theano.sandbox.rng_mrg import MRG_RandomStreams as MRG_RandomStreams

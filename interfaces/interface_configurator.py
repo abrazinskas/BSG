@@ -1,8 +1,8 @@
-from data_iterators.open_text_data_iterator import OpenTextDataIterator
-from tools.vocabulary import Vocabulary
-from tokenizers.bsg_tokenizer import BSGTokenizer
+from libraries.data_iterators.open_text_data_iterator import OpenTextDataIterator
+from libraries.tools.vocabulary import Vocabulary
+from libraries.tokenizers.bsg_tokenizer import BSGTokenizer
 from interfaces.i_bsg import IBSG
-from misc.optimizations import Adam
+from libraries.misc.optimizations import Adam
 
 
 class InterfaceConfigurator:

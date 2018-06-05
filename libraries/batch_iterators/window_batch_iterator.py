@@ -1,6 +1,6 @@
 from support import pad_sents, allow_with_prob, sample_words, create_context_windows
 from base_batch_iterator import BaseBatchIterator
-from tools.vocabulary import PAD_TOKEN, UNK_TOKEN
+from libraries.tools.vocabulary import PAD_TOKEN, UNK_TOKEN
 import numpy as np
 try:
     import re2 as re

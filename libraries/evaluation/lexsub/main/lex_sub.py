@@ -3,8 +3,8 @@ import operator
 from support import read_candidates, wf2ws, flatten, get_best_scores_for_candidates, conll_skip_sentence
 from context_instance import ContextInstance
 import numpy as np
-from utils.paths_and_files import create_folders_if_not_exist
-from evaluation.lexsub.jcs.evaluation.lst.lst_gap import compute_gap
+from libraries.utils.paths_and_files import create_folders_if_not_exist
+from libraries.evaluation.lexsub.jcs.evaluation.lst.lst_gap import compute_gap
 
 
 def lex_sub(embeddings, input_type, target_words_vocab, context_words_vocab, output_path, candidates_file, conll_file,

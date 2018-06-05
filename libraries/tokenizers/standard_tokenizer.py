@@ -1,4 +1,4 @@
-from tools.word_processor import WordProcessor
+from libraries.tools.word_processor import WordProcessor
 from nltk import word_tokenize as external_tokenizer
 
 

@@ -7,7 +7,7 @@ import sys
 import random
 import re
 
-from evaluation.lexsub.jcs.evaluation.measures.generalized_average_precision import GeneralizedAveragePrecision
+from libraries.evaluation.lexsub.jcs.evaluation.measures.generalized_average_precision import GeneralizedAveragePrecision
 
 
 #take.v 25 :: consider 2;accept 1;include 1;think about 1;

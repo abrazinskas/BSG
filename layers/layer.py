@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-from misc.initializers import Initializers
+from libraries.misc.initializers import Initializers
 import theano
 
 

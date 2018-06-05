@@ -7,7 +7,7 @@ from scipy.stats import chi2
 # from vMF_support.vMF_KL import kl_vMF # I've disabled it to avoid calling theano for no reason
 
 # sys.path.append(os.path.join(os.path.dirname(__file__), "../../"))
-from simulators.support import KL, cosine_sim, l2
+from libraries.simulators.support import KL, cosine_sim, l2
 
 import os
 import pickle

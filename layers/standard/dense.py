@@ -1,6 +1,6 @@
 from theano import tensor as T
 from layers.layer import Layer
-from misc.non_linearity import NonLinearity
+from libraries.misc.non_linearity import NonLinearity
 
 
 class Dense(Layer):

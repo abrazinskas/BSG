@@ -1,8 +1,8 @@
 from layers.layer import Layer
 from layers.standard.embeddings import Embeddings
 import theano.tensor as T
-from misc.non_linearity import NonLinearity
-from utils.other import merge_ordered_dicts
+from libraries.misc.non_linearity import NonLinearity
+from libraries.utils.other import merge_ordered_dicts
 
 
 class BSGEncoder(Layer):

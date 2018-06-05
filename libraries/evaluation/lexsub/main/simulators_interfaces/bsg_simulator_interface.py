@@ -1,5 +1,5 @@
-from simulators.bsg_simulator import BsgSimulator
-from simulators.support import KL
+from libraries.simulators.bsg_simulator import BsgSimulator
+from libraries.simulators.support import KL
 
 
 class BsgSimulatorInterface:

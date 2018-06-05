@@ -1,6 +1,6 @@
 import itertools
-from utils.paths_and_files import create_folders_if_not_exist
-from utils.other import sort_hash
+from libraries.utils.paths_and_files import create_folders_if_not_exist
+from libraries.utils.other import sort_hash
 import os
 import numpy as np
 try:

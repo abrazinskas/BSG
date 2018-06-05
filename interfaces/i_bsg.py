@@ -1,7 +1,7 @@
 from models.bsg import BSG
 from i_base import IBase
 from collections import OrderedDict
-from batch_iterators.window_batch_iterator import WindowBatchIterator as BatchIterator
+from libraries.batch_iterators.window_batch_iterator import WindowBatchIterator as BatchIterator
 from support import compute_loss
 
 

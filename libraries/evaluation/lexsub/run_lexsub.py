@@ -1,6 +1,6 @@
 import os, sys
 sys.path.append(os.path.join(os.getcwd(), "../../"))
-from tools.vocabulary import Vocabulary
+from libraries.tools.vocabulary import Vocabulary
 from main.simulators_interfaces.bsg_simulator_interface import BsgSimulatorInterface
 from main.skipgram_embeddings import Skipgram_Embeddings
 from main.support import read_vectors

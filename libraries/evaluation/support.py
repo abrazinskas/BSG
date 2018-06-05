@@ -1,8 +1,8 @@
 import os
-from evaluation.entailment.entailment import test_entailment, test_directional_entailment
-from evaluation.word_sim.all_wordsim import all_word_sim
-from evaluation.word_sim.wordsim import word_sim
-from evaluation.GloVe.evaluate import glove_evaluate
+from libraries.evaluation.entailment.entailment import test_entailment, test_directional_entailment
+from libraries.evaluation.word_sim.all_wordsim import all_word_sim
+from libraries.evaluation.word_sim.wordsim import word_sim
+from libraries.evaluation.GloVe.evaluate import glove_evaluate
 
 
 # evaluates vectors on Glove's benchmark and offline wordvectors.org benchmark

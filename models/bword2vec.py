@@ -2,9 +2,8 @@ import pickle
 import os
 import theano
 from support import load, write_vectors, kl_spher
-import numpy as np
 from pickle import UnpicklingError
-from tools.ordered_attrs import OrderedAttrs
+from libraries.tools.ordered_attrs import OrderedAttrs
 
 ## theano configuration
 theano.optimizer_including = 'cudnn'

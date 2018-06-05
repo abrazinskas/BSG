@@ -1,6 +1,6 @@
 from nltk import word_tokenize as default_tokenizer
 from support import deal_with_accents
-from utils.paths_and_files import get_file_paths
+from libraries.utils.paths_and_files import get_file_paths
 
 
 class OpenTextDataIterator():

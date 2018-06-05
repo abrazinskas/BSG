@@ -1,10 +1,10 @@
-from utils.paths_and_files import get_subdir_number
+from libraries.utils.paths_and_files import get_subdir_number
 import sys, os
 from support import load, save, metrics_to_str
-from tools.log import Log
-from utils.other import merge_ordered_dicts
+from libraries.tools.log import Log
+from libraries.utils.other import merge_ordered_dicts
 from support import infer_attributes_to_log, format_experimental_setup
-from tools.ordered_attrs import OrderedAttrs
+from libraries.tools.ordered_attrs import OrderedAttrs
 
 # a dirty hack from:
 # http://stackoverflow.com/questions/24171725/scikit-learn-multicore-attributeerror-stdin-instance-has-no-attribute-close

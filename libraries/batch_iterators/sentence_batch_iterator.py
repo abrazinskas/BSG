@@ -1,8 +1,8 @@
 from support import allow_with_prob, sample_words, create_context_windows, pad_sents
 from base_batch_iterator import BaseBatchIterator
-from data_iterators.open_text_data_iterator import OpenTextDataIterator
+from libraries.data_iterators.open_text_data_iterator import OpenTextDataIterator
 from window_batch_iterator import Batch
-from tools.vocabulary import PAD_TOKEN, UNK_TOKEN
+from libraries.tools.vocabulary import PAD_TOKEN, UNK_TOKEN
 import numpy as np
 try:
     import re2 as re

@@ -4,7 +4,7 @@ from bword2vec import BWord2Vec
 from layers.custom.bsg_encoder import BSGEncoder
 from layers.standard.dense import Dense
 from layers.standard.embeddings import Embeddings
-from utils.other import merge_ordered_dicts
+from libraries.utils.other import merge_ordered_dicts
 
 
 class BSG(BWord2Vec):
