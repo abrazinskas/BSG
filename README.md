@@ -56,3 +56,23 @@ python eval/word_pairs_eval.py -wpp eval/example_word_pairs.txt -mup vectors/mu.
 
 ## Additional resourced used in the project
 Lexical substitution benchmark is a modified version of https://github.com/orenmel/lexsub 
+
+
+## Citation
+
+```
+@inproceedings{brazinskas-etal-2018-embedding,
+    title = "Embedding Words as Distributions with a {B}ayesian Skip-gram Model",
+    author = "Bra{\v{z}}inskas, Arthur  and
+      Havrylov, Serhii  and
+      Titov, Ivan",
+    booktitle = "Proceedings of the 27th International Conference on Computational Linguistics",
+    month = aug,
+    year = "2018",
+    address = "Santa Fe, New Mexico, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/C18-1151",
+    pages = "1775--1789",
+}
+
+```
