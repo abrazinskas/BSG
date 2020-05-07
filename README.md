@@ -1,6 +1,6 @@
 # Bayesian Skip-gram(BSG)
 
-This repository contains Theano code for the Bayesian version of Skip-gram model presented in:
+This repository contains Theano code for the Bayesian Skip-gram model, COLING 2018.
  
  [1] **Embedding Words as Distributions with a Bayesian Skip-gram Model**, Arthur Bražinskas, Serhii Havrylov, Ivan Titov, [arxiv](https://arxiv.org/abs/1711.11027)
  
